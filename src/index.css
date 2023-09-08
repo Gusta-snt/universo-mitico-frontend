@@ -1,5 +1,6 @@
 :root {
   font-family: "Poppins", sans-serif;
   --background: #F9F4EC;
+  font-size: 10px;
   background-color: var(--background);
 }
