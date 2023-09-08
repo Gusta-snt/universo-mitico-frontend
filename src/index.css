@@ -1,0 +1,5 @@
+:root {
+  font-family: "Poppins", sans-serif;
+  --background: #F9F4EC;
+  background-color: var(--background);
+}
