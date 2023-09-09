@@ -1,12 +1,12 @@
-.login-page {
-	width: 100%;
+.register-page {
 	height: 100vh;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.login-page form {
+.register-page form {
 	width: 300px;
 	display: flex;
 	flex-direction: column;
@@ -14,7 +14,7 @@
 	justify-content: center;
 }
 
-.login-page form .fields-wrapper {
+.register-page form .fields-wrapper {
 	margin-top: 20px;
 	width: 100%;
 	display: flex;
@@ -22,18 +22,18 @@
 	gap: 15px;
 }
 
-.login-page form .links-wrapper {
+.register-page form .links-wrapper {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	width: 100%;
 	margin-top: 10px;
 }
 
-.login-page form .links-wrapper a {
+.register-page form .links-wrapper a {
 	font-size: 1.1rem;
 	transition: all .2s;
 }
 
-.login-page form .links-wrapper a:hover {
+.register-page form .links-wrapper a:hover {
 	color: blue;
 }

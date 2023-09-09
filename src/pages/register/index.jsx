@@ -5,23 +5,24 @@ import FormButton from "./../../components/FormButton"
 
 import "./style.css"
 
-function Login() {
+function Register() {
+
 	return (
-		<main className="login-page">
+		<main className="register-page">
 			<form>
 				<img src={logo} alt="Logo do univero mítico" />
 				<div className="fields-wrapper">
+					<FormField title="Nome" type="text" />
 					<FormField title="Email" type="email" />
 					<FormField title="Senha" type="password" />
 				</div>
-				<FormButton text="Login" />
+				<FormButton text="Registrar" />
 				<div className="links-wrapper">
-					<a href="#">Não tem uma conta?</a>
-					<a href="#">Esqueci minha senha</a>
+					<a href="#">Já tem uma conta?</a>
 				</div>
 			</form>
 		</main>
 	)
 }
 
-export default Login
+export default Register
