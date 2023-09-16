@@ -1,14 +1,11 @@
-import Login from "./pages/login"
-import Register from "./pages/register"
+import Router from "./routes.jsx"
 
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <Login />
-    </>
+    <Router />
   )
 }
 

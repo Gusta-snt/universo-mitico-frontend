@@ -7,23 +7,21 @@ import FormButton from "./../../components/FormButton"
 
 import "./style.css"
 
-function Login() {
+function ForgotPassword() {
 	return (
-		<main className="login-page">
+		<main className="forgotPassword-page">
 			<form>
 				<img src={logo} alt="Logo do univero mítico" />
-				<div className="fields-wrapper">
-					<FormField title="Email" type="email" />
-					<FormField title="Senha" type="password" />
-				</div>
-				<FormButton text="Login" />
+				<p>Precisamos de seu email para que possemos lhe conceder o acesso à página de mudança de senha</p>
+				<FormField title="Digite seu email" type="email" />
+				<FormButton text="Enviar email" />
 				<div className="links-wrapper">
 					<Link to="/register">Não tem uma conta?</Link>
-					<Link to="/forgotPassword">Esqueci minha senha</Link>
+					<Link to="/">Tenho minha senha</Link>
 				</div>
 			</form>
 		</main>
 	)
 }
 
-export default Login
+export default ForgotPassword

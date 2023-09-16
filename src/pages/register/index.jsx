@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import logo from "./../../assets/logo.svg"
 
 import FormField from "./../../components/FormField"
@@ -18,7 +20,7 @@ function Register() {
 				</div>
 				<FormButton text="Registrar" />
 				<div className="links-wrapper">
-					<a href="#">Já tem uma conta?</a>
+					<Link to="/">Já tem uma conta?</Link>
 				</div>
 			</form>
 		</main>

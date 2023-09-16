@@ -1,0 +1,39 @@
+.forgotPassword-page {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.forgotPassword-page form {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.forgotPassword-page form p {
+	margin: 20px 0 10px 0;
+	text-align: center;
+	opacity: 0.7;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+.forgotPassword-page form .links-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.forgotPassword-page form .links-wrapper a {
+	font-size: 1.1rem;
+	transition: all .2s;
+}
+
+.forgotPassword-page form .links-wrapper a:hover {
+	color: blue;
+}
